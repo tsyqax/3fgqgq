@@ -127,4 +127,6 @@ function createBot() {
    );
 }
 
+require('./bot.js')
+
 createBot();
