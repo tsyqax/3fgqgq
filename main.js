@@ -13,5 +13,3 @@ const server = http.createServer(function (req, res) {
   console.log('server running at http://127.31.128.93:8005')
 
 })
-
-require('./main.js')
