@@ -1,0 +1,49 @@
+{
+  "bot-account": {
+    "username": "NEIDks",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "alyac4.kro.kr",
+    "port": 54370,
+    "version": "1.16.5"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 14,
+    "y": 152,
+    "z": -175
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 1000,
+
+      "messages": [
+        "Hi, I Want to eat.",
+        "My nickname is NEIDks",
+        "I want be alone...",
+        "My screat is...secret!"
+      ]
+    },
+
+    "chat-log": false,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
