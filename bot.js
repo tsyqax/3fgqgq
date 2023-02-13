@@ -8,13 +8,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Ukkk?')
-});
-
-app.listen(3006, () => {
-  console.log('server started');
-});
+require('./main.js'
 
 function createBot() {
    const bot = mineflayer.createBot({
@@ -126,7 +120,5 @@ function createBot() {
       console.log(`\x1b[31m[ERROR] ${err.message}`, '\x1b[0m')
    );
 }
-
-require('./bot.js')
 
 createBot();
