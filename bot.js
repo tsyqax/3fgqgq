@@ -8,7 +8,7 @@ const express = require('express');
 
 const app = express();
 
-require('./main.js'
+require('./main.js')
 
 function createBot() {
    const bot = mineflayer.createBot({
