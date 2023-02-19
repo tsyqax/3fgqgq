@@ -6,9 +6,9 @@
   },
 
   "server": {
-    "ip": "alyac4.kro.kr",
-    "port": 54370,
-    "version": "1.16.5"
+    "ip": "vaccin3.kro.kr",
+    "port": 54560,
+    "version": "1.17.1"
   },
 
   "position": {
