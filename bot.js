@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send('Ukkk?')
 });
 
-app.listen(3006, () => {
+app.listen(3007, () => {
   console.log('server started');
 });
 
