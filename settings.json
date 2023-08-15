@@ -6,8 +6,8 @@
   },
 
   "server": {
-    "ip": "vaccin3.kro.kr",
-    "port": 54560,
+    "ip": "server.address",
+    "port": port(int),
     "version": "1.19.2"
   },
 
