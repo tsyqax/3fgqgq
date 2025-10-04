@@ -21,10 +21,7 @@ if __name__ == '__main__':
   
   import os
   os.environ["COQUI_TOS_AGREED"] = "1"
-  
-  # espeak-ng 설치는 그대로 유지
-  !apt-get install -y espeak-ng > /dev/null 2>&1
-  print("✅espeak-ng")
+
   
   # Get device
   device = "cuda" if torch.cuda.is_available() else "cpu"
