@@ -1,4 +1,8 @@
 #@title #**TTS 뽑기**
+
+import os
+os.environ['MPLBACKEND'] = 'Agg'
+
 import torch
 from TTS.api import TTS
 from pydub import AudioSegment
@@ -8,8 +12,7 @@ import gc
 
 import argparse
 
-import os
-os.environ['MPLBACKEND'] = 'Agg'
+
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='AI RVC COVER', add_help=True)
