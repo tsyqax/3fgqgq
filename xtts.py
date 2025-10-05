@@ -45,7 +45,7 @@ if __name__ == '__main__':
       tts.tts_to_file(
           text=text,
           speaker_wav=speaker,
-          language="ko",
+          language="en",
           file_path="tts_generated.mp3",
           enable_text_splitting=True,
           temperature=0.7,
