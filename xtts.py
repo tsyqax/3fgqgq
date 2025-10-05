@@ -8,6 +8,8 @@ import gc
 
 import argparse
 
+import os
+os.environ['MPLBACKEND'] = 'Agg'
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='AI RVC COVER', add_help=True)
