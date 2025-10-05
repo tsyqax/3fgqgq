@@ -39,7 +39,7 @@ if __name__ == '__main__':
   try:
       tts.tts_to_file(
           text=text,
-          speaker_wav=speakers,
+          speaker_wav=speaker,
           language="ko",
           file_path="tts_generated.mp3",
           enable_text_splitting=True,
