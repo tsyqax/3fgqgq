@@ -31,10 +31,12 @@ if __name__ == '__main__':
       tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", progress_bar=False).to(device)
       print("✅TTS Loaded")
   except Exception as e:
+      import traceback
       print(f"❌ TTS 로드 중 오류 발생: {e}")
+      print("\n--- 상세 오류 추적(Traceback) ---")
+      traceback.print_exc() # 전체 Traceback 출력
 
   try:
-  
       tts.tts_to_file(
           text=text,
           speaker_wav=speakers,
